@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <style>
+        .content {
+            flex-direction: row;
+            display: flex;
+        }
+
+        .content>div {
+            display: flex;
+            flex: 1;
+            align-content: center;
+            justify-content: center
+        }
+
+        footer>p {
+            text-align: end;
+            justify-content: flex-end;
+        }
+
+        .table_person {
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container">
+        <img src="marsha.png" class="logo" width="40" height="40">
+        <div class="home">Home</div>
+        <div class="Search">Search</div>
+        <div class="Logout">Logout</div>
+    </nav>
+    <header>
+        <h1>Form Belajar</h1>
+        <p>Ini adalah website laltihan pertama</p>
+    </header>
+
+    <main class="content">
+        <div>
+            <table class="form_person">
+                <tr>
+                    <td>Nama</td>
+                    <td> <input type="text" class="isi_form"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal lahir</td>
+                    <td> <input type="text" class="isi_form"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td> <input type="radio" value="Laki-Laki  "> <input type="radio" value=" Perempuan"></td>
+                </tr>
+                <tr>
+                    <td>Pesan</td>
+                    <td> <Textarea cols="20" rows="5"></Textarea></td>
+                </tr>
+                <th>
+                <td><button> Submit</button></td>
+                </th>
+
+            </table>
+        </div>
+
+        <div>
+            <table class="table_person">
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal lahir</th>
+                    <th>Jenis kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profil</th>
+                    <th>Hapus</th>
+                </tr>
+                <tr>
+                    <td>Testi</td>
+                    <td>17 Mei 2003</td>
+                    <td>Laki-Laki</td>
+                    <td>Belajar Buat Website</td>
+                    <td><a href="#">Klik Disini</a></td>
+                    <td>Gambar</td>
+                </tr>
+
+            </table>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>Yous 2025</p>
+    </footer>
+</body>
+
+</html>
